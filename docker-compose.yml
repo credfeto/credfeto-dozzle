@@ -1,4 +1,6 @@
 # Run with docker compose up -d
+name: monitoring
+
 services:
   dozzle:
     image: amir20/dozzle:latest
