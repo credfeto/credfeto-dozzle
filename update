@@ -1,0 +1,4 @@
+#! /bin/sh
+
+export DOZZLE_HOSTNAME=$(hostnamectl hostname)
+docker compose pull && docker compose up -d
