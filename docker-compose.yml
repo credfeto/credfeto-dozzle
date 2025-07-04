@@ -8,7 +8,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
-      - 8080:8080
+      - 15000:8080
     environment:
       DOZZLE_HOSTNAME: ${DOZZLE_HOSTNAME}
       # Uncomment to enable container actions (stop, start, restart). See https://dozzle.dev/guide/actions
